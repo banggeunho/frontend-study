@@ -1,0 +1,108 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas: 
+        'a a'
+        'b c'
+        'd d'
+    ;
+}
+
+header {
+    grid-area: a;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-justify: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main {
+    grid-area: b;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+aside {
+    grid-area: c;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer {
+    grid-area: d;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 1rem;
+    grid-template-areas: 
+        'a a a'
+        'b c c'
+        'b d g'
+        'e f g'
+        ;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image1 {
+    grid-area: a;
+}
+
+.image2 {
+    grid-area: b;
+}
+
+.image3 {
+    grid-area: c;
+}
+
+.image4 {
+    grid-area: d;
+}
+
+.image5 {
+    grid-area: e;
+}
+
+.image6 {
+    grid-area: f;
+}
+
+.image7 {
+    grid-area: g;
+}
