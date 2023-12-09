@@ -12,7 +12,7 @@ flukeout.github.io에서 css 게임으로 학습가능
 margin은 컨텐츠 밖에 들어가는 것 */
 /* 위 아래는 2개만 넣었을때 */
 /* 3개만 넣으면 좌, 우가 채워짐 */
-.red {
+/* .red {
     width: 200px;
     height: 200px;
     padding: 20px 30px 0px; 
@@ -20,4 +20,26 @@ margin은 컨텐츠 밖에 들어가는 것 */
     border: 2px dashed red;
 
     background-color: yellow;
+} */
+
+div, span {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background-color: pink;
+}
+
+/* display로 level을 바꿀 수 있따.*/
+/* inline은 크기는 무시하고 내용만큼 
+inline block은 같은 줄에 들어가는 상자
+block은 한줄에 하나씩 들어가는 상자 */
+
+div {
+    background-color: red;
+    display: inline;
+}
+
+span {
+    background-color: blue;
+    display: block;
 }

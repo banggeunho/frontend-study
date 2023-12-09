@@ -1,0 +1,83 @@
+/* %는 부모태그의 100퍼센트를 채우겠다. */
+/* 나는 부모에 상관없이 보이는 것에 대해 100퍼센트를 쓰겠다 => 100vh */
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
+}
+/* 
+disply: flex 설정후, 
+
+* flex-direction (중심축 결정)
+row가 default
+row-reverse, column, column-reverse 등이 있음
+
+* flex-wrap
+nowrap : 한줄에 꽉차도 계속 붙어있음 (default)
+wrap: 한줄에 꽉차면 다음 줄로 넘어감.
+wrap-reverse: 위에서 부터 반대로 wrapping이 된다.
+
+* justify-content : item들을 어떻게 배치할건지 (중심축에서 아이템 배치)
+flex-start: 왼쪽에서 오른쪽으로, 위에서 아래로
+flex-end: 오른쪽축으로 아이템들을 배치한다. (순서 유지)
+center: 센터에 맞춰준다.
+space-around: 박스를 둘러싸게 spacing을 넣어주는 것임.
+space-evenly: 똑같은 간격을 넣어줌.
+space-between: 왼쪽과 오른쪽은 화면에 딱 붙게 해주고, 중간만 띄워준다.
+
+* align-items (반대축에서 아이템 배치)
+
+*/
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1 {
+    background-color: #ef9a9a;
+    /* padding:20px; */
+}
+
+.item2 {
+    background-color: #f48fb1;
+}
+
+.item3 {
+    background-color: #ce93d8;
+}
+
+.item4 {
+    background-color: #b39ddb;
+}
+
+.item5 {
+    background-color: #90caf9;
+}
+
+.item6 {
+    background-color: #a5d6a7;
+}
+
+.item7 {
+    background-color: #e6ee9c;
+}
+
+.item8 {
+    background-color: #fff59d;
+}
+
+.item9 {
+    background-color: rgb(236, 182, 64);
+}
+
+.item10 {
+    background-color: #f48fb1;
+}

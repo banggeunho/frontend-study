@@ -47,3 +47,16 @@ a[href$=".com"] {
 }
 
 /* 태그의 태그를 선택하고 싶으면 > 으로 구분하여 작성해준다.*/
+
+a:nth-child(1) {
+    color: rgb(120, 45, 139);
+}
+
+a:first-of-type {
+    background-color: aqua;
+}
+
+/* 컨텐츠가 아무것도 없을때 */
+.red:empty {
+    background-color: red;
+}
