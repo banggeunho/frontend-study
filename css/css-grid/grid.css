@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    /* 총 5개의 컬럼을 만들건데, 사용가능한 너비의 20%씩 만들거임 */
+    /* grid-template-columns: repeat(5, 10%);  */
+    /* 사용 가능한 너비의 비율로 나눌거임 */
+    grid-template-columns: repeat(5, 1fr);
+    /* 컨텐츠가 없으면 150px 유지하고, 있을 경우 최대너비는 자동으로 지정 */
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 10px;
+}
+
+/* grid line은 맨 왼쪽줄이 1번 */
+.item2 {
+    /* 번호는 모르겠는데, 2개의 셀을 차지 할 거야 */
+    grid-column: 2 / span 2;
+    /* 끝까지 차지할거야 */
+    grid-row: 1 / -1;
+}
