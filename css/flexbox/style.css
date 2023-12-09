@@ -33,6 +33,7 @@ space-between: 왼쪽과 오른쪽은 화면에 딱 붙게 해주고, 중간만 
 
 * align-items (반대축에서 아이템 배치)
 
+* align-content: 반대축 콘첸츠 배치
 */
 
 .item {
