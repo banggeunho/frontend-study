@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37375a6293.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <navbar class="navbar">
+        <div class="navbar__title">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="navbar__title">춘헨스TV</span>
+        </div>
+        <div class="navbar__icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </navbar>
+    <video id='video' controls="controls" preload='none' poster="https://assets.codepen.io/32795/poster.png">
+        <source id='mp4' src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
+        <source id='webm' src="http://media.w3.org/2010/05/sintel/trailer.webm" type='video/webm' />
+        <source id='ogv' src="http://media.w3.org/2010/05/sintel/trailer.ogv" type='video/ogg' />
+    </video>
+    <div class="video__metatdata">
+        <div class="info">
+            <div class="video__hastag">
+                <a href="#" id="hashtag__1">#Coding</a>
+                <a href="#" id="hashtag__2">#Hastag2</a>
+                <a href="#" id="hashtag__3">#Ddooby</a>
+            </div>
+            <div class="video__title">
+                <div id="title"> Clone Coding: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, fugiat! Quis ipsam aliquid perferendis quaerat quod voluptatibus, ipsum culpa voluptatem ad rem impedit a qui esse suscipit distinctio, eum tempora.</div>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="video__performance">
+                1M view month ago
+            </div>
+            <div class="video__icons">
+                <div class="icon icon__like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <div>1K</div>
+                </div>
+                <div class="icon icon__dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <div>0</div>
+                </div>
+                <div class="icon icon__share">
+                    <i class="fa-solid fa-share"></i>
+                    <div>Share</div>
+                </div>
+                <div class="icon icon__save">
+                    <i class="fa-solid fa-plus"></i>
+                    <div>Save</div>
+                </div>
+                <div class="icon icon__report">
+                    <i class="fa-solid fa-flag"></i>
+                    <div>Report</div>
+                </div>
+            </div>
+            <div class="video__author">
+                <div class="author">
+                    <div class="author__image">
+                        <img src="https://avatars.githubusercontent.com/u/72342550?s=48&v=4" alt="" class="author__info">
+                    </div>
+                    
+                    <div class="author__info">
+                        <div class="author__name">방근호</div>
+                        <div class="author__subscribe__info">1M subscribers</div>
+                    </div>
+                </div>
+                <button class="subscribe">SUBSCRIBE</button>
+            </div>
+            
+        </div>
+        <div class="next__video">
+            <div class="next__video__header">Up next</div>
+            <div class="next__video__list">
+                <div class="next__video__element">
+                    <div class="next__video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/fUyfSCrr_9o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBSeX5hLJkYF2C0iky95mvghKQ0w"
+                         alt="thumb1"
+                         width="200px"
+                         height="1em"/>
+                    </div>
+                    <div class="next__video__info">
+                        <div class="next__video__title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quisquam sit modi suscipit eaque aliquam! Explicabo facere saepe ipsa facilis animi. Id odio assumenda vero molestiae, quo optio nisi saepe.</div>
+                        <div class="next__video__author">이명재</div>
+                        <div class="next__video__view__info">2K Views</div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="next__video__element">
+                    <div class="next__video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/SBVvu1HUzLQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjgywRKh03cVA8uDWPaE66_MsrYQ"
+                         alt="thumb1"
+                         width="200px"
+                         height="1em"/>
+                    </div>
+                    <div class="next__video__info">
+                        <div class="next__video__title">김춘헨과 알리룰렐로</div>
+                        <div class="next__video__author">신광철</div>
+                        <div class="next__video__view__info">32K Views</div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="next__video__element">
+                    <div class="next__video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/SBVvu1HUzLQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjgywRKh03cVA8uDWPaE66_MsrYQ"
+                         alt="thumb1"
+                         width="200px"
+                         height="1em"/>
+                    </div>
+                    <div class="next__video__info">
+                        <div class="next__video__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consectetur dolor similique nostrum et molestiae officiis ullam enim, repellendus ducimus earum quod tenetur, beatae sapiente quia voluptate nisi inventore laudantium.</div>
+                        <div class="next__video__author">방근호</div>
+                        <div class="next__video__view__info">12K Views</div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="next__video__element">
+                    <div class="next__video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/fUyfSCrr_9o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBSeX5hLJkYF2C0iky95mvghKQ0w"
+                         alt="thumb1"
+                         width="200px"
+                         height="1em"/>
+                    </div>
+                    <div class="next__video__info">
+                        <div class="next__video__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, aliquid rerum? Magni fugiat esse porro minus perspiciatis. A ad, obcaecati hic at quis, nostrum natus placeat accusantium asperiores est neque!</div>
+                        <div class="next__video__author">장미란</div>
+                        <div class="next__video__view__info">152K Views</div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

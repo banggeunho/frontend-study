@@ -1,0 +1,152 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 98, 255);
+}
+
+video {
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 5vh;
+    
+}
+
+.navbar__title i {
+    color: red;
+}
+
+.navbar__icons {
+    padding: 8px 12px;
+}
+
+.info {
+    background-color: white;
+    padding: 8px 12px;
+    border-style: 1px dashed black;
+}
+
+.video__title {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.video__title i {
+    margin: 3px;
+}
+
+.video__performance {
+    color: grey;
+    font-size: 13px;
+}
+
+.video__icons {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px grey solid;
+    height: 4em;
+}
+
+.video__icons .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.video__author {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px grey solid;
+    padding: 12px 0px;
+}
+
+.author {
+    display: flex;
+}
+
+.author__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.author__name {
+    font-size: 1.5em;
+}
+
+.author__subscribe__info {
+    font-size: 0.8em;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
+
+.next__video {
+    background-color: white;
+    padding: 8px 12px;
+}
+
+.next__video__title {
+    color: grey;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.next__video__element {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    height: 10%;
+}
+
+.next__video__info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.next__video__title {
+    font-size: 16px;
+    color: black;
+}
+
+.next__video__author {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.next__video__view__info {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.next__video__element i {
+    padding: 12px 8px;
+}
+
+img {
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .video__metatdata {
+        display: flex;
+    }
+}
